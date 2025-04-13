@@ -51,7 +51,7 @@ This repository contains the following 10 projects, each in its own subdirectory
    - **Key Features**: Movie selection, seat management.  
    - **Technologies**: Python (standard library).
 
-10. **[Photo Searcher](https://github.com/kanhaiya-gupta/Advanced-Python-with-OOP-Projects/tree/main/App-Photo-Searcher)**  
+10. **[Photo Searcher](https://github.com/kanhaiya-gupta/Advanced-Python-with-OOP-Projects/tree/main/App-1-Photo-Searcher)**  
     A command-line application to search for photos using a public API (e.g., Unsplash) and download selected images.  
     - **Key Features**: Photo search, image downloading.  
     - **Technologies**: Python, `requests`.
