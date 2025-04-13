@@ -1,6 +1,6 @@
 # Advanced Python with OOP Projects
 
-A collection of Python projects designed to demonstrate advanced object-oriented programming (OOP) principles. Each project showcases practical applications, ranging from command-line tools to web applications and APIs, leveraging Python's capabilities and various libraries. This repository is ideal for learners and developers looking to explore OOP concepts through real-world examples.
+A collection of Python projects designed to demonstrate advanced object-oriented programming (OOP) principles. Each project showcases practical applications, ranging from command-line tools to web applications, APIs, and image processing, leveraging Python's capabilities and various libraries. This repository is ideal for learners and developers looking to explore OOP concepts through real-world examples.
 
 ## Projects Overview
 
@@ -51,6 +51,11 @@ This repository contains the following 10 projects, each in its own subdirectory
    - **Key Features**: Movie selection, seat management.  
    - **Technologies**: Python (standard library).
 
+10. **[Photo Searcher](https://github.com/kanhaiya-gupta/Advanced-Python-with-OOP-Projects/tree/main/App-Photo-Searcher)**  
+    A command-line application to search for photos using a public API (e.g., Unsplash) and download selected images.  
+    - **Key Features**: Photo search, image downloading.  
+    - **Technologies**: Python, `requests`.
+
 ## Prerequisites
 - Python 3.x
 - A virtual environment is recommended for dependency management:
@@ -72,13 +77,13 @@ This repository contains the following 10 projects, each in its own subdirectory
    ```bash
    pip install -r requirements.txt  # If a requirements.txt exists
    ```
-   Or install manually based on the project's README (e.g., `pip install flask fpdf`).
+   Or install manually based on the project's README (e.g., `pip install flask requests`).
 
 4. Follow the project-specific instructions in its subdirectory for setup, configuration, and usage.
 
 ## Usage
 Each project has its own entry point (typically `main.py` or `app.py`) and usage instructions. For example:
-- For command-line apps (e.g., Flatmates Bill Splitter, Automated Emails, Cinema Ticket Booking), run:
+- For command-line apps (e.g., Flatmates Bill Splitter, Automated Emails, Cinema Ticket Booking, Photo Searcher), run:
   ```bash
   python main.py
   ```
@@ -88,10 +93,10 @@ Each project has its own entry point (typically `main.py` or `app.py`) and usage
   ```
   Then access at `http://127.0.0.1:5000` in a browser or API client.
 
-Refer to individual project directories for detailed instructions, including any API keys or environment variables required (e.g., Dropbox or Dictionary API keys).
+Refer to individual project directories for detailed instructions, including any API keys or environment variables required (e.g., Dropbox, Unsplash, or Dictionary API keys).
 
 ## Project-Specific Notes
-- Some projects (e.g., Webcam Photo Sharer, Automated Emails, Instant Dictionary Webapp, Instant Dictionary API) require external API keys or email credentials. Set these as environment variables or configure as instructed in the respective project folder.
+- Some projects (e.g., Webcam Photo Sharer, Automated Emails, Instant Dictionary Webapp, Instant Dictionary API, Photo Searcher) require external API keys or email credentials. Set these as environment variables or configure as instructed in the respective project folder.
 - Web-based projects (Flatmates Bill Web App, Calorie Webapp, Instant Dictionary Webapp, Instant Dictionary API) use Flask and run locally by default.
 - Ensure your system has a webcam for Webcam Photo Sharer and a compatible SMTP service (e.g., Gmail) for Automated Emails.
 
@@ -113,4 +118,4 @@ Kanhaiya Gupta - [GitHub](https://github.com/kanhaiya-gupta)
 
 ## Acknowledgments
 - Built as a learning resource for advanced Python and OOP concepts.
-- Thanks to the open-source community for libraries like Flask, Pygame, and OpenCV.
+- Thanks to the open-source community for libraries like Flask, Pygame, OpenCV, and Requests.
